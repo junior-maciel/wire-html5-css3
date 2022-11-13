@@ -157,3 +157,31 @@ header nav .btn-primary {
 .s-card-featured .all-cards .card.white p {
     color: var(--gray-colors-300);
 }
+
+/* Style Section area*/
+
+.s-card-featured .second-area {
+    margin-top: 11.2rem;
+}
+
+.s-card-featured .second-area .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6.4rem;
+}
+
+.s-card-featured .second-area .all-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 2%;
+}
+
+.s-card-featured .second-area .all-imgs .image {
+    width: 15%;
+    height: 11.2rem;
+    background-color: var(--gray-colors-200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
