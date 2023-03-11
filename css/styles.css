@@ -2,6 +2,8 @@
 /* Style Header */
 
 header {
+    position: sticky;
+    top: 0;
     background-color: var(--gray-colors-800);
     width: 100%;
     height: 8.8rem;
@@ -272,6 +274,11 @@ footer main nav .item ul li a {
     font-size: 1.4rem;
     line-height: 105%;
     color: var(--white-colors-text);
+    transition: color 0.3s;
+}
+
+footer main nav .item ul li a:hover {
+    color: var(--brand-colors-pink);
 }
 
 footer main nav .item:last-child ul li a {
