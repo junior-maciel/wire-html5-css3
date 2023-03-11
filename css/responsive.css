@@ -145,4 +145,8 @@
     .s-card-featured .second-area .all-imgs {
         gap: 0.5rem 2%;
     }
+
+    .s-newsletter {
+        padding: 4rem 0;
+    }
 }
